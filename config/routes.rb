@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :quotes
   get 'users/new'
 
   root 'static_pages#home'
